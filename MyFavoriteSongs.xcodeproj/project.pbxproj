@@ -14,6 +14,16 @@
 		2ADF8E991ED6779200A9C4C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF8E971ED6779200A9C4C8 /* LaunchScreen.storyboard */; };
 		2ADF8EA41ED6779200A9C4C8 /* MyFavoriteSongsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8EA31ED6779200A9C4C8 /* MyFavoriteSongsTests.swift */; };
 		2ADF8EAF1ED6779200A9C4C8 /* MyFavoriteSongsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8EAE1ED6779200A9C4C8 /* MyFavoriteSongsUITests.swift */; };
+		2ADF8EBD1ED6789700A9C4C8 /* MakeTubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8EBC1ED6789700A9C4C8 /* MakeTubViewController.swift */; };
+		2ADF8EBF1ED678BC00A9C4C8 /* SongsRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8EBE1ED678BC00A9C4C8 /* SongsRankViewController.swift */; };
+		2ADF8EC11ED678CE00A9C4C8 /* AlbumsRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8EC01ED678CE00A9C4C8 /* AlbumsRankViewController.swift */; };
+		2ADF8EC31ED678DE00A9C4C8 /* ArtistsRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8EC21ED678DE00A9C4C8 /* ArtistsRankViewController.swift */; };
+		2ADF8ED61ED67F0200A9C4C8 /* albumRankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8ED01ED67F0200A9C4C8 /* albumRankTableViewCell.swift */; };
+		2ADF8ED71ED67F0200A9C4C8 /* albumRankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF8ED11ED67F0200A9C4C8 /* albumRankTableViewCell.xib */; };
+		2ADF8ED81ED67F0200A9C4C8 /* artistRankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF8ED21ED67F0200A9C4C8 /* artistRankTableViewCell.xib */; };
+		2ADF8ED91ED67F0200A9C4C8 /* artistRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8ED31ED67F0200A9C4C8 /* artistRankViewController.swift */; };
+		2ADF8EDA1ED67F0200A9C4C8 /* rankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF8ED41ED67F0200A9C4C8 /* rankTableViewCell.swift */; };
+		2ADF8EDB1ED67F0200A9C4C8 /* rankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF8ED51ED67F0200A9C4C8 /* rankTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		2ADF8EAA1ED6779200A9C4C8 /* MyFavoriteSongsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavoriteSongsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADF8EAE1ED6779200A9C4C8 /* MyFavoriteSongsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteSongsUITests.swift; sourceTree = "<group>"; };
 		2ADF8EB01ED6779200A9C4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADF8EBC1ED6789700A9C4C8 /* MakeTubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTubViewController.swift; sourceTree = "<group>"; };
+		2ADF8EBE1ED678BC00A9C4C8 /* SongsRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsRankViewController.swift; sourceTree = "<group>"; };
+		2ADF8EC01ED678CE00A9C4C8 /* AlbumsRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsRankViewController.swift; sourceTree = "<group>"; };
+		2ADF8EC21ED678DE00A9C4C8 /* ArtistsRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsRankViewController.swift; sourceTree = "<group>"; };
+		2ADF8ED01ED67F0200A9C4C8 /* albumRankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = albumRankTableViewCell.swift; path = ../albumRankTableViewCell.swift; sourceTree = "<group>"; };
+		2ADF8ED11ED67F0200A9C4C8 /* albumRankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = albumRankTableViewCell.xib; path = ../albumRankTableViewCell.xib; sourceTree = "<group>"; };
+		2ADF8ED21ED67F0200A9C4C8 /* artistRankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = artistRankTableViewCell.xib; path = ../artistRankTableViewCell.xib; sourceTree = "<group>"; };
+		2ADF8ED31ED67F0200A9C4C8 /* artistRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = artistRankViewController.swift; path = ../artistRankViewController.swift; sourceTree = "<group>"; };
+		2ADF8ED41ED67F0200A9C4C8 /* rankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = rankTableViewCell.swift; path = ../rankTableViewCell.swift; sourceTree = "<group>"; };
+		2ADF8ED51ED67F0200A9C4C8 /* rankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = rankTableViewCell.xib; path = ../rankTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +120,19 @@
 				2ADF8E8E1ED6779200A9C4C8 /* AppDelegate.swift */,
 				2ADF8E901ED6779200A9C4C8 /* ViewController.swift */,
 				2ADF8E921ED6779200A9C4C8 /* Main.storyboard */,
+				2ADF8EBE1ED678BC00A9C4C8 /* SongsRankViewController.swift */,
+				2ADF8EC01ED678CE00A9C4C8 /* AlbumsRankViewController.swift */,
+				2ADF8EC21ED678DE00A9C4C8 /* ArtistsRankViewController.swift */,
+				2ADF8EBC1ED6789700A9C4C8 /* MakeTubViewController.swift */,
 				2ADF8E951ED6779200A9C4C8 /* Assets.xcassets */,
 				2ADF8E971ED6779200A9C4C8 /* LaunchScreen.storyboard */,
 				2ADF8E9A1ED6779200A9C4C8 /* Info.plist */,
+				2ADF8ED01ED67F0200A9C4C8 /* albumRankTableViewCell.swift */,
+				2ADF8ED11ED67F0200A9C4C8 /* albumRankTableViewCell.xib */,
+				2ADF8ED21ED67F0200A9C4C8 /* artistRankTableViewCell.xib */,
+				2ADF8ED31ED67F0200A9C4C8 /* artistRankViewController.swift */,
+				2ADF8ED41ED67F0200A9C4C8 /* rankTableViewCell.swift */,
+				2ADF8ED51ED67F0200A9C4C8 /* rankTableViewCell.xib */,
 			);
 			path = MyFavoriteSongs;
 			sourceTree = "<group>";
@@ -235,9 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADF8ED81ED67F0200A9C4C8 /* artistRankTableViewCell.xib in Resources */,
+				2ADF8EDB1ED67F0200A9C4C8 /* rankTableViewCell.xib in Resources */,
 				2ADF8E991ED6779200A9C4C8 /* LaunchScreen.storyboard in Resources */,
 				2ADF8E961ED6779200A9C4C8 /* Assets.xcassets in Resources */,
 				2ADF8E941ED6779200A9C4C8 /* Main.storyboard in Resources */,
+				2ADF8ED71ED67F0200A9C4C8 /* albumRankTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADF8EBD1ED6789700A9C4C8 /* MakeTubViewController.swift in Sources */,
+				2ADF8EC31ED678DE00A9C4C8 /* ArtistsRankViewController.swift in Sources */,
+				2ADF8EBF1ED678BC00A9C4C8 /* SongsRankViewController.swift in Sources */,
+				2ADF8EDA1ED67F0200A9C4C8 /* rankTableViewCell.swift in Sources */,
+				2ADF8ED91ED67F0200A9C4C8 /* artistRankViewController.swift in Sources */,
 				2ADF8E911ED6779200A9C4C8 /* ViewController.swift in Sources */,
 				2ADF8E8F1ED6779200A9C4C8 /* AppDelegate.swift in Sources */,
+				2ADF8ED61ED67F0200A9C4C8 /* albumRankTableViewCell.swift in Sources */,
+				2ADF8EC11ED678CE00A9C4C8 /* AlbumsRankViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
